@@ -1671,12 +1671,12 @@ in seed TheCore Lite, keys =F
 [WARN]: Explode/baneling not related to a conflict
 but is part of same check
 but is inherited
-in seed TheCore Lite, keys =E
+in seed TheCore Lite, keys =C
 
 [WARN]: Explode/baneling2 not related to a conflict
 but is part of same check
 but is inherited
-in seed TheCore Lite, keys =E
+in seed TheCore Lite, keys =C
 
 [WARN]: Feedback/AnAleemController not related to a conflict
 but is inherited

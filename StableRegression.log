@@ -22,6 +22,8 @@ Start Regression against referenced seeds (log file: StableRegression.log)
 [WARN]: 'T' used in place of 'V' for command 'Corruptor/Larva', in seed 'TheCore Lite'
 [WARN]: 'Space' used in place of '4' for command 'DisableBuildingAttack/Baneling', in seed 'TheCore Lite'
 [WARN]: 'E' used in place of 'E,R' for command 'EMP/Ghost', in seed 'TheCore Lite'
+[WARN]: 'C' used in place of 'E' for command 'Explode/Baneling', in seed 'TheCore Lite'
+[WARN]: 'C' used in place of 'E' for command 'Explode/BanelingBurrowed', in seed 'TheCore Lite'
 [WARN]: '5' used in place of '4' for command 'Halt', in seed 'TheCore Lite'
 [WARN]: 'F' used in place of 'F,4' for command 'InfestedTerrans/Infestor', in seed 'TheCore Lite'
 [WARN]: 'F' used in place of 'F,4' for command 'InfestedTerrans/InfestorBurrowed', in seed 'TheCore Lite'
@@ -52,5 +54,5 @@ Start Regression against referenced seeds (log file: StableRegression.log)
 [WARN]: 'Space,C' used in place of 'Space' for command 'ZergBuild/Drone', in seed 'TheCore Lite'
 [INFO]: seed 'TheCore Lite' got regression check against 'stable/TheCore Lite.SC2Hotkeys'
 ----------------------------
-Finished (Regression against referenced seeds) - ERRORs: 13 WARNs: 36 INFOs: 1 
+Finished (Regression against referenced seeds) - ERRORs: 13 WARNs: 38 INFOs: 1 
 ============================

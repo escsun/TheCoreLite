@@ -205,8 +205,6 @@ Start suggest inherit (log file: SuggestInheritance.log)
 	SporeCrawlerUproot/SporeCrawlerUprooted default: 
 
 [INFO]: TheCore Lite: 5   
-	Aberration/VoidRift default: B
-	Aberration/VoidRiftUnselectable default: B
 	DOMGhostPersonalDefensiveMatrix/Ghost default: 
 	DehakaAirAttack/DehakaCoop default: 
 	DehakaAirAttackUpgrade/DehakaCoop default: 
@@ -346,6 +344,14 @@ Start suggest inherit (log file: SuggestInheritance.log)
 	EvolveK5ChainLightning/EvolutionChamber default: R
 	EvolveStukovInfestedCivilianSpawnBroodlingsOnDeath/SICivilianStructure default: 
 	ExperimentalPlasmaGun/Raynor default: G
+	Explode/Baneling default: X
+	Explode/BanelingBurrowed default: X
+	Explode/HotSHunter default: X copyof: Explode/Baneling default: X
+	Explode/HotSHunterBurrowed default: X copyof: Explode/BanelingBurrowed default: X
+	Explode/HotSSplitterlingBig default: X copyof: Explode/Baneling default: X
+	Explode/HotSSplitterlingBigBurrowed default: X copyof: Explode/BanelingBurrowed default: X
+	Explode/baneling default:  copyof: Explode/Baneling default: X
+	Explode/baneling2 default:  copyof: Explode/Baneling default: X
 	FenixArbiterStasisField/FenixArbiter default: 
 	FleetwideJump/HHRaven default: 
 	FleetwideJump/HHVikingAssault default: 
@@ -785,14 +791,6 @@ Start suggest inherit (log file: SuggestInheritance.log)
 	EvolveSIMarineTrooperImprovedRange/SIBarracksTechLab default: 
 	EvolveSeveringGlave/GreaterSpire default: 
 	EvolveSeveringGlave/Spire default: 
-	Explode/Baneling default: X
-	Explode/BanelingBurrowed default: X
-	Explode/HotSHunter default: X copyof: Explode/Baneling default: X
-	Explode/HotSHunterBurrowed default: X copyof: Explode/BanelingBurrowed default: X
-	Explode/HotSSplitterlingBig default: X copyof: Explode/Baneling default: X
-	Explode/HotSSplitterlingBigBurrowed default: X copyof: Explode/BanelingBurrowed default: X
-	Explode/baneling default:  copyof: Explode/Baneling default: X
-	Explode/baneling2 default:  copyof: Explode/Baneling default: X
 	ExplodeVolatileInfested/SIVolatileInfested default: 
 	FaceEmbrace/Viper default: D
 	FenixClolarionBomberDummy/FenixClolarionCarrier default: 
@@ -2159,6 +2157,8 @@ Start suggest inherit (log file: SuggestInheritance.log)
 
 [INFO]: TheCore Lite: Y   
 	Aberration/Larva default: B
+	Aberration/VoidRift default: B
+	Aberration/VoidRiftUnselectable default: B
 	DarkShrineAssignRally/DarkShrine default: Y
 	DehakaDetector/DehakaCoop default: 
 	GatherProt default: G
