@@ -74,7 +74,7 @@ some graphic resources are available in Image directory.
 Please download the following .pdf file:
 
 * [TheCore_Lite.pdf](https://github.com/bobo38/TheCoreLite/raw/master/Reference/TheCore_Lite.pdf)
-* [TheCore Lite Discord channel](https://discord.gg/GWxQJF)
+* [TheCore Lite Discord channel](https://discord.gg/CeC7MEG)
 
 Legacy resources:
 * [historical Master Spreadsheet](https://docs.google.com/spreadsheets/d/1v1gTY9suNstl6KoYQ0zIA8_dIBAJ9COmdtbQ1AEuxV4/edit?pref=2&pli=1#gid=56)
@@ -141,32 +141,38 @@ All workers:
 * F = Return cargo
 * Y = Gather
 
-Transport/Bunker/CC
-* E/R = unload all
+All CC/Hatch/Nexi:
+* Space = worker
+* E = important command MULE/Queen/Chrono
+* C = scan and recall
+
+Transport/Bunker
+* E = unload all
 * C = Load
 
 Terran:
 * Space/R = "transformers'" keys
-* F/Space = cloak/decloak <= change on going
+* Space/F = cloak/decloak
 * 4 = select worker key
 * 5 = halt key
 * 4 = land key
 * 5 = lift key
-* C = ignite after burner (coop) <= change on going
+* C = ignite after burner (coop)
 * R = Salvage
 * R = Load CC/Planetary Fortress
-* E = Reactor
-* C = Techlab
+* F = unload all
+* C = Reactor
+* E = Techlab
 
 Protoss:
 * Space = blink guardian shield feedback
-* F/Space = oracle pulsar beam <= change on going
+* Space/F = oracle pulsar beam
 * Space/R = warp prism (phase mode)
 * E = evolve building to warp
 * M = evolve back building to non-warp (intentionally out of compact keys)
 
 Zerg:
-* R/4 = burrow/unborrow <= change on going
+* R/4 = burrow/unburrow
 * C = creep tumor
 * F = morph/evolve
 * E = speed key (for research affecting speed)
@@ -597,16 +603,16 @@ Related aliases:
 
 ### Quick Cam
 
-* ~~Camera creation with Alt~~
-* ~~Camera recall with Shift+CapsLock~~
+(not implemented but practically working)
 
-~~This cam is updated each time you press Alt.~~
-~~Theoretically Alt is used only to define Cams early game.~~
+* ~~Camera 1 creation with Shift~~
+* ~~Camera 1 recall with CapsLock~~
+
+~~This cam is updated each time you press Shift.~~
+~~You can recall to base and be back at last position if you don't press Shift twice~~
 ~~Camera 2 and 3 are kept in case you want to use them for harass.~~
 
-~~Tip: Alt quick cam creation is inhibited for Control+Alt and Shift+Alt, displaying enemy life bars~~
-
-~~Note: quick cam removed, kept in readme in case you want to reintroduce it in your local copy~~
+~~Note: previous quick cam implementation was removed, kept in readme in case you want to reintroduce it in your local copy~~
 
 ----------------------------------------------------------------------------------------------------------------------
 
